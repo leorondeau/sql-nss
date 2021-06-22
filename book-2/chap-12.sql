@@ -29,7 +29,7 @@ join employees e
 group by
 	e.employee_type_id, et.name ; 
 --Create a view that lists all customers without exposing their emails, phone numbers and street address.
---Create a view that lists all customers without exposing their emails, phone numbers and street address.
+
 Create view customer_info as
 select 
 	first_name,
